@@ -1,0 +1,11 @@
+{
+  "name": "vanilla-openclaw",
+  "version": "1.0.0",
+  "description": "Vanilla OpenClaw deployment",
+  "scripts": {
+    "start": "openclaw gateway --bind lan --port $PORT"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
