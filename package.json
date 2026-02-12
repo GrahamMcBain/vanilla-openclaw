@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Vanilla OpenClaw deployment",
   "scripts": {
-    "start": "openclaw gateway --bind lan --port $PORT"
+    "start": "openclaw gateway --bind lan --port $PORT --allow-unconfigured"
   },
   "engines": {
     "node": ">=22.12.0"
